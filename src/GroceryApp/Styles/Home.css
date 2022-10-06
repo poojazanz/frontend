@@ -1,0 +1,16 @@
+#containerbox {
+    display: grid;
+    grid-template-rows: 55px 1000px;
+}
+
+#navigationbar {
+    height: 50px;
+    background-color: rgb(0, 0, 46);
+    font-size: xx-large;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#body {
+    background-color: rgb(73, 156, 184);
+}
