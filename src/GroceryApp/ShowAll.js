@@ -62,10 +62,10 @@ const ShowAll = (props) => {
               <del>{item.groceryItem}</del>
             </div>
             <div>
-              <button onClick={() => handleUpdate(item._id)} id={"btn1"}>
+              <button onClick={() => handleUpdate(item.id)} id={"btn1"}>
                 Purchased
               </button>
-              <button onClick={() => handleDelete(item._id)} id={"btn2"}>
+              <button onClick={() => handleDelete(item.id)} id={"btn2"}>
                 X
               </button>
             </div>
